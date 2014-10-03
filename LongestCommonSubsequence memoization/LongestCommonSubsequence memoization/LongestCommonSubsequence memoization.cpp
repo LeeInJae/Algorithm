@@ -102,6 +102,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	}
 	
 	PrintResultString(xLen - 1, yLen - 1, viaPos, str1);
+	delete[] resArr;
+	delete[] viaPos;
 	getchar();
 	return 0;
 }

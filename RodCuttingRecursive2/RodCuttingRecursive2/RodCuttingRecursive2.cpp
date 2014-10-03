@@ -45,6 +45,7 @@ void PrintRodCutting(int n, int * resArr, int * pos){
 		position -= pos[position];
 	}
 }
+
 int _tmain(int argc, _TCHAR* argv[])
 {
 	int n;
